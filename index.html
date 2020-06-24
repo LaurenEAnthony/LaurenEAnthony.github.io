@@ -13,6 +13,14 @@
 </head>
 
 <body class="wrapper">
+    <section id="landing">
+        <div class="intro-layer" id="photo"></div>
+        <div class="intro-layer" id="gradient"></div>
+        <div id="intro">
+            <h1>Lauren Anthony</h1>
+            <h3>EFA Student</h3>
+        </div>
+    </section>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -39,15 +47,7 @@
             </ul>
         </div>
     </nav>
-    <section id="landing">
-        <div class="intro-layer" id="photo"></div>
-        <div class="intro-layer" id="gradient"></div>
-        <div id="intro">
-            <h1>Lauren Anthony</h1>
-            <p>EFA Student</p>
-        </div>
-    </section>
-    <!-- <section class="about">
+    <section class="about">
         <h2>ABOUT</h2>
         <img src="" alt="headshot">
         <div id="bio">
@@ -55,7 +55,8 @@
                 <p>and...</p>
         </div>
     </section>
-    <section class="projects">
+
+    <!-- <section class="projects">
         <h2>PROJECTS</h2>
         <div class="projTile" id="creature">
             <h5>CSS Creature</h5>
@@ -77,19 +78,36 @@
             <a href="https://github.com/LaurenEAnthony/static_layout">GitHub Repo</a>
             <a href="https://laureneanthony.github.io/static_layout/">Deployed Page</a>
         </div>
-    </section>
+    </section> -->
+
     <section class="contact-etc">
         <div id=contact-form>
             <h2>CONTACT</h2>
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+                action="https://formspree.io/laurenanthony247@gmail.com" method="post">
+                <fieldset id="fs-frm-inputs">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                    <label for="message">Message</label>
+                    <textarea rows="5" name="message" id="message" placeholder="Enter message here."
+                        required=""></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset>
+                <input type="submit" value="Submit">
+            </form>
         </div>
         <div id="etc">
             <h2>MORE INFO</h2>
 
         </div>
     </section>
+
     <footer>
 
-    </footer> -->
+    </footer>
+
     <!-- <div class="jumbotron">
         <h1 class="display-4">Hello, world!</h1>
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
