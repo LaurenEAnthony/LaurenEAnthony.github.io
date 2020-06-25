@@ -1,12 +1,21 @@
  .wrapper {
     /* background: linear-gradient(to right, RGB(0,0,0), RGB(255,255,255), RGB(0,0,0)); */
     background-color: black;
-    font-family: 'Play', sans-serif;}
+    font-family: 'Play', sans-serif;
+}
+
+h2{
+    margin: 3em 0 1.5em 0;
+    font-size: xx-large;
+    font-weight: bold;
+}
 
 #landing{
     text-align: center;
     height: 100vh;
     min-width: 100%;
+    background-size: cover;
+    overflow: hidden;
     padding: none;
     background-image: radial-gradient(RGBA(255, 255, 255, 0), RGB(0,0,0)),url('https://images.unsplash.com/photo-1543416862-c6758a5e79fb?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80');
     background-size: 100%;
@@ -37,76 +46,67 @@ padding: 40vh 0 0 0;
 
 .about{
     text-align: center;
-    padding: 3em;
-    margin: 5em;
     color: linen;
+}
+
+#headshot img{
+    width: 15em;
 }
 
 #bio{
     text-align: left;
-    margin-top: 2em;
-}
-
-#headshot{
-    width: 15em;
 }
 
 #projects{
     color: linen;
-    margin: 5em;
 }
 
 #projects a{
     font-weight: bold;
 }
 
+.card-img-overlay{
+    background-color: RGB(0, 0, 0, .5);
+}
+
 .card-img{
     height: 16em;
+    width: auto;
     overflow: hidden;
 }
 
 .contact-etc{
     color: linen;
-    margin: 5em;
 }
 
 #contact-form {
     background-image: radial-gradient(#262626, black);
     border: solid 1px #262626;
-    width: 25em;
-    height: 25em; 
+    width: auto;
+    height: auto; 
     color: linen;
     text-align: center;
 }
 
-#etc{
-    text-align: center;
-}
-
-#resume{
-    margin: 3em;
-}
-
-#profile-links{
-    margin: 3em;
+#fs-frm{
+    padding: 1em;
 }
 
  .icon{
-     width: 60px;
-     height: 60px;
+     width: 45px;
+     height: 45px;
      background-color: linen;
-     margin: 1.5em;
+     margin-right: 1.5em;
  }
 
  .icon1{
-     width: 65px;
-     height: 60px;
-     margin: 1.5em;
+     width: 48px;
+     height: 45px;
+     margin-right: 1.5em;
  }
 
  footer{
-     height: 6em;
-     margin-top: 3em;
+     height: 5em;
      color: linen;
  }
 
