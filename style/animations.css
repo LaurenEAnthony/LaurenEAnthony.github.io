@@ -1,104 +1,110 @@
-:root{
-    --accent1: #E95D25;
-    --accent2: #692B81;
-    --accent3: #E51D27;
-    --accent4: #FFF047;
-    --accent5: #E51956;
-    --accent6: #28A3DE;
-    --accent7: #049848;
-    --accent8: #EE99C0;
-} 
-
-#intro h1:hover{
-    color: white;
-    text-shadow: 5px 5px 5px var(--accent5);
+:root {
+  --accent1: #e95d25;
+  --accent2: #692b81;
+  --accent3: #e51d27;
+  --accent4: #fff047;
+  --accent5: #e51956;
+  --accent6: #28a3de;
+  --accent7: #049848;
+  --accent8: #ee99c0;
+  --accentTest: #e51956;
 }
 
-#intro h3:hover{
-    color: white;
-    text-shadow: 5px 5px 5px var(--accent4);
+/* #intro h1:hover {
+  color: white;
+  text-shadow: 5px 5px 5px var(--accent5);
+} */
+
+#intro-name:hover {
+  color: white;
+  text-shadow: 5px 5px 5px var(--accentTest);
 }
 
-#brand-link:hover{
-    color: var(--accent5);
-}
-#home-link:hover{
-    color: var(--accent7);
-}
-#about-link:hover{
-    color: var(--accent4);
-}
-#projects-link:hover{
-    color: var(--accent3);
-}
-#contact-link:hover{
-    color: var(--accent6);
-}
-#etc-link:hover{
-    color: var(--accent1);
+#intro h3:hover {
+  color: white;
+  text-shadow: 5px 5px 5px var(--accent4);
 }
 
-#about h2:hover{
-    color: var(--accent2);
-    text-shadow:1px 1px 5px var(--accent2);
+#brand-link:hover {
+  color: var(--accent5);
+}
+#home-link:hover {
+  color: var(--accent7);
+}
+#about-link:hover {
+  color: var(--accent4);
+}
+#projects-link:hover {
+  color: var(--accent3);
+}
+#contact-link:hover {
+  color: var(--accent6);
+}
+#etc-link:hover {
+  color: var(--accent1);
 }
 
-#headshot img:hover{
-    box-shadow: 0 0 20px var(--accent8);
-}
-#projects h2:hover{
-    color: var(--accent3);
-    text-shadow:1px 1px 5px var(--accent3);
+#about h2:hover {
+  color: var(--accent2);
+  text-shadow: 1px 1px 5px var(--accent2);
 }
 
-#css-creature:hover{
-    box-shadow: 0 0 20px var(--accent4);
+#headshot img:hover {
+  box-shadow: 0 0 20px var(--accent8);
+}
+#projects h2:hover {
+  color: var(--accent3);
+  text-shadow: 1px 1px 5px var(--accent3);
 }
 
-#api-project:hover{
-    box-shadow: 0 0 20px var(--accent8);
+#css-creature:hover {
+  box-shadow: 0 0 20px var(--accent4);
 }
 
-#static-layout:hover{
-    box-shadow: 0 0 20px var(--accent6);
+#api-project:hover {
+  box-shadow: 0 0 20px var(--accent8);
 }
 
-#contact-head h2:hover{
-    color: var(--accent1);
-    text-shadow:1px 1px 5px var(--accent1);
+#static-layout:hover {
+  box-shadow: 0 0 20px var(--accent6);
 }
 
-#name label:hover{
-    color: var(--accent2);
+#contact-head h2:hover {
+  color: var(--accent1);
+  text-shadow: 1px 1px 5px var(--accent1);
 }
 
-#email label:hover{
-    color: var(--accent3);
+#name label:hover {
+  color: var(--accent2);
 }
 
-#message label:hover{
-    color: var(--accent6);
+#email label:hover {
+  color: var(--accent3);
 }
 
-#submit:hover{
-    box-shadow: 0 0 10px var(--accent4);
+#message label:hover {
+  color: var(--accent6);
 }
 
-#etc-head h2:hover{
-    color: var(--accent8);
-    text-shadow:1px 1px 5px var(--accent8);
+#submit:hover {
+  box-shadow: 0 0 10px var(--accent4);
 }
 
-#resume h4:hover{
-    color: var(--accent7);
-    text-shadow:1px 1px 5px var(--accent7);
+#etc-head h2:hover {
+  color: var(--accent8);
+  text-shadow: 1px 1px 5px var(--accent8);
 }
 
-#profile-links h4:hover{
-    color: var(--accent5);
-    text-shadow:1px 1px 5px var(--accent5);
+#resume h4:hover {
+  color: var(--accent7);
+  text-shadow: 1px 1px 5px var(--accent7);
 }
 
-footer p:hover{
-    color: var(--accent6);
+#profile-links h4:hover {
+  color: var(--accent5);
+  text-shadow: 1px 1px 5px var(--accent5);
+}
+
+footer p:hover {
+  color: var(--accent6);
 }

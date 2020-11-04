@@ -1,112 +1,112 @@
- .wrapper {
-    /* background: linear-gradient(to right, RGB(0,0,0), RGB(255,255,255), RGB(0,0,0)); */
-    background-color: black;
-    font-family: 'Play', sans-serif;
+.wrapper {
+  /* background: linear-gradient(to right, RGB(0,0,0), RGB(255,255,255), RGB(0,0,0)); */
+  background-color: black;
+  font-family: "Play", sans-serif;
 }
 
-h2{
-    margin: 3em 0 1.5em 0;
-    font-size: xx-large;
-    font-weight: bold;
+h2 {
+  margin: 3em 0 1.5em 0;
+  font-size: xx-large;
+  font-weight: bold;
 }
 
-#landing{
-    text-align: center;
-    height: 100vh;
-    min-width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    padding: none;
-    background-image: radial-gradient(RGBA(255, 255, 255, 0), RGB(0,0,0)),url('https://images.unsplash.com/photo-1543416862-c6758a5e79fb?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80');
-    background-size: 100%;
-    background-position-y: center;
+#landing {
+  text-align: center;
+  height: 100vh;
+  min-width: 100%;
+  background-size: cover;
+  overflow: hidden;
+  padding: none;
+  background-image: radial-gradient(RGBA(255, 255, 255, 0), RGB(0, 0, 0)),
+    url("https://images.unsplash.com/photo-1543416862-c6758a5e79fb?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
+  background-size: 100%;
+  background-position-y: center;
 }
 
 #intro {
-padding: 40vh 0 0 0;
-}
- 
-#intro h1{
-    font-family: 'Marck Script', cursive;
-    color: linen;
-    font-size: 75pt;
-    text-shadow: RGB(0,0,0) 2px 2px 5px;
+  padding: 40vh 0 0 0;
 }
 
-#intro h3{
-    color: linen;
-    font-weight: 500;
-    text-shadow: RGB(0,0,0) 1px 1px 3px;
+#intro h1 {
+  font-family: "Marck Script", cursive;
+  color: linen;
+  font-size: 75pt;
+  text-shadow: RGB(0, 0, 0) 2px 2px 5px;
 }
 
-#custom-nav{
-    background-image: linear-gradient(to bottom, #262626, #0d0d0d);
-    color: linen;
+#intro h3 {
+  color: linen;
+  font-weight: 500;
+  text-shadow: RGB(0, 0, 0) 1px 1px 3px;
 }
 
-.about{
-    text-align: center;
-    color: linen;
+#custom-nav {
+  background-image: linear-gradient(to bottom, #262626, #0d0d0d);
+  color: linen;
 }
 
-#headshot img{
-    width: 15em;
+.about {
+  text-align: center;
+  color: linen;
 }
 
-#bio{
-    text-align: left;
+#headshot img {
+  width: 15em;
 }
 
-#projects{
-    color: linen;
+#bio {
+  text-align: left;
 }
 
-#projects a{
-    font-weight: bold;
+#projects {
+  color: linen;
 }
 
-.card-img-overlay{
-    background-color: RGB(0, 0, 0, .5);
+#projects a {
+  font-weight: bold;
 }
 
-.card-img{
-    height: 16em;
-    width: auto;
-    overflow: hidden;
+.card-img-overlay {
+  background-color: RGB(0, 0, 0, 0.5);
 }
 
-.contact-etc{
-    color: linen;
+.card-img {
+  height: 16em;
+  width: auto;
+  overflow: hidden;
+}
+
+.contact-etc {
+  color: linen;
 }
 
 #contact-form {
-    background-image: radial-gradient(#262626, black);
-    border: solid 1px #262626;
-    width: auto;
-    height: auto; 
-    color: linen;
-    text-align: center;
+  background-image: radial-gradient(#262626, black);
+  border: solid 1px #262626;
+  width: auto;
+  height: auto;
+  color: linen;
+  text-align: center;
 }
 
-#fs-frm{
-    padding: 1em;
+#fs-frm {
+  padding: 1em;
 }
 
- .icon{
-     width: 45px;
-     height: 45px;
-     background-color: linen;
-     margin-right: 1.5em;
- }
+.icon {
+  width: 45px;
+  height: 45px;
+  background-color: linen;
+  margin-right: 1.5em;
+}
 
- .icon1{
-     width: 48px;
-     height: 45px;
-     margin-right: 1.5em;
- }
+.icon1 {
+  width: 48px;
+  height: 45px;
+  margin-right: 1.5em;
+}
 
- footer{
-     height: 5em;
-     color: linen;
- }
-
+footer {
+  height: 5em;
+  color: linen;
+}
