@@ -1,6 +1,6 @@
 .wrapper {
   /* background: linear-gradient(to right, RGB(0,0,0), RGB(255,255,255), RGB(0,0,0)); */
-  background-color: black;
+  background-color: #262626;
   font-family: "Play", sans-serif;
 }
 
@@ -31,13 +31,13 @@ h2 {
   font-family: "Marck Script", cursive;
   color: linen;
   font-size: 75pt;
-  text-shadow: RGB(0, 0, 0) 2px 2px 5px;
+  /* text-shadow: RGB(0, 0, 0) 2px 2px 5px; */
 }
 
 #intro h3 {
   color: linen;
   font-weight: 500;
-  text-shadow: RGB(0, 0, 0) 1px 1px 3px;
+  /* text-shadow: RGB(0, 0, 0) 1px 1px 3px; */
 }
 
 #custom-nav {

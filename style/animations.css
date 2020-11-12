@@ -1,23 +1,28 @@
 :root {
-  --accent1: #e95d25;
+  /* --accent1: #e95d25;
   --accent2: #692b81;
   --accent3: #e51d27;
   --accent4: #fff047;
   --accent5: #e51956;
   --accent6: #28a3de;
   --accent7: #049848;
-  --accent8: #ee99c0;
+  --accent8: #ee99c0; */
   --accentTest: #e51956;
 }
+
+.rainbow:hover {
+  color: white;
+  text-shadow: 5px 5px 5px var(--accentTest);
+}
+
+/* #intro-name:hover {
+  color: white;
+  text-shadow: 5px 5px 5px var(--accentTest);
+} */
 
 /* #intro h1:hover {
   color: white;
   text-shadow: 5px 5px 5px var(--accent5);
-} */
-
-#intro-name:hover {
-  color: white;
-  text-shadow: 5px 5px 5px var(--accentTest);
 }
 
 #intro h3:hover {
@@ -107,4 +112,4 @@
 
 footer p:hover {
   color: var(--accent6);
-}
+} */

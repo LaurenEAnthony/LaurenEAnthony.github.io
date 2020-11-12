@@ -1,4 +1,16 @@
-function colorPick(){
+var hoverElements = document.getElementsByClassName('rainbow')
+// console.log(hoverElements)
+
+for (var i=0; i<hoverElements.length; i++ ){
+    hoverElements[i].addEventListener('mouseover', function hoverHandler(e){
+        // console.log(this.className)
+        // console.log(e.currentTarget === this)
+        currEl= e.currentTarget
+        colorPick(currEl)
+    })
+}
+
+function colorPick(el){
     var colors =[
         '#E95D25',
         '#692B81',
@@ -13,9 +25,5 @@ function colorPick(){
     var random_color = colors[Math.floor( 
         Math.random() * colors.length)]
 
-    var tagId= document.getElementById("intro-name")
-
-    tagId.style.setProperty('--accentTest', random_color)
+    el.style.setProperty('--accentTest', random_color)
 }
-
-document.getElementById('intro-name').addEventListener('mouseover', colorPick)
