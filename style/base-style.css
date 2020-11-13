@@ -41,7 +41,7 @@ h2 {
 }
 
 #custom-nav {
-  background-image: linear-gradient(to bottom, #262626, #0d0d0d);
+  background-image: linear-gradient(to bottom, #262626, #424949, #262626);
   color: linen;
 }
 
@@ -81,7 +81,7 @@ h2 {
 }
 
 #contact-form {
-  background-image: radial-gradient(#262626, black);
+  background-image: radial-gradient(#424949, #262626);
   border: solid 1px #262626;
   width: auto;
   height: auto;
