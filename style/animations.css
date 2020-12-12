@@ -1,9 +1,5 @@
-:root {
-  --accentTest: #e51956;
-}
-
 .rainbow:hover {
-  color: white;
+  /* color: white; */
   text-shadow: 5px 5px 5px var(--accentTest);
 }
 /* 

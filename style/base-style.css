@@ -1,7 +1,9 @@
 .wrapper {
   /* background: linear-gradient(to right, RGB(0,0,0), RGB(255,255,255), RGB(0,0,0)); */
-  background-color: #262626;
-  font-family: "Play", sans-serif;
+  background-color: white;
+  font-family: "Anonymous Pro", monospace;
+  color: black;
+  border: black 1px;
 }
 
 h2 {
@@ -40,14 +42,15 @@ h2 {
   /* text-shadow: RGB(0, 0, 0) 1px 1px 3px; */
 }
 
-#custom-nav {
+/* #custom-nav {
   background-image: linear-gradient(to bottom, #262626, #424949, #262626);
-  color: linen;
-}
+  color: black;
+  background-color: linen;
+} */
 
 .about {
   text-align: center;
-  color: linen;
+  color: black;
 }
 
 #headshot img {
@@ -59,7 +62,7 @@ h2 {
 }
 
 #projects {
-  color: linen;
+  color: black;
 }
 
 #projects a {
@@ -77,15 +80,15 @@ h2 {
 }
 
 .contact-etc {
-  color: linen;
+  color: black;
 }
 
 #contact-form {
-  background-image: radial-gradient(#424949, #262626);
+  /* background-image: radial-gradient(#424949, #262626); */
   border: solid 1px #262626;
   width: auto;
   height: auto;
-  color: linen;
+  color: black;
   text-align: center;
 }
 
@@ -96,7 +99,7 @@ h2 {
 .icon {
   width: 45px;
   height: 45px;
-  background-color: linen;
+  background-color: white;
   margin-right: 1.5em;
 }
 
@@ -108,5 +111,5 @@ h2 {
 
 footer {
   height: 5em;
-  color: linen;
+  color: black;
 }

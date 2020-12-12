@@ -11,15 +11,25 @@ for (var i=0; i<hoverElements.length; i++ ){
 }
 
 function colorPick(el){
+    // var colors =[
+    //     '#E95D25',
+    //     '#692B81',
+    //     '#E51D27',
+    //     '#FFF047',
+    //     '#E51956',
+    //     '#28A3DE',
+    //     '#049848',
+    //     '#EE99C0',
+    // ]
+
     var colors =[
-        '#E95D25',
-        '#692B81',
-        '#E51D27',
-        '#FFF047',
-        '#E51956',
-        '#28A3DE',
-        '#049848',
-        '#EE99C0',
+        '#FB1E6E',
+        // '#0502F1',
+        '#00ffd4',
+        '#28E10A',
+        '#FF7F00',
+        // '#F4000B',
+        '#CE02F7'
     ]
 
     var random_color = colors[Math.floor( 

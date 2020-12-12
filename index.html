@@ -9,7 +9,8 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/base-style.css">
     <link rel="stylesheet" href="./style/animations.css">
-    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Play&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Marck+Script&display=swap" rel="stylesheet"> 
 </head>
 
 <body class="wrapper">
@@ -25,7 +26,7 @@
         </div>
     </section>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light" id="custom-nav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="custom-nav">
         <a class="navbar-brand rainbow"   id="brand-link" href="#landing"  >Lauren E Anthony</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +34,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link rainbow"   id="home-link" href="#landing">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -60,7 +61,7 @@
         </div>
         <div class="row" id="about-content">
             <div class="col-md-4" id="headshot">
-                <img class="rainbow"   src="assets/LaurenAnthony3.5.jpg">
+                <img class="rainbow"   src="assets/casual-profile-bw.jpg">
             </div>
             <!-- </div>
         <div class="row"> -->
@@ -96,49 +97,62 @@
                 <h2 class="rainbow"  >PROJECTS</h2>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3">
-            <div class="col mb-4">
-                <div class="card bg-dark text-white">
-                    <img src="./assets/CSS_creature_icon.png" class="card-img" alt="CSS-Creature">
-                    <div class="card-img-overlay rainbow"   id="css-creature">
-                        <h5 class="card-title">CSS Creature Project</h5>
-                        <p class="card-text">For this project, I challenged myself with CSS gradient effects and learned
-                            about choosing the right sizing units for different components.</p>
-                        <p class="card-text">
-                            <a href="https://codepen.io/LaurenAnthony247/details/MWaLgaz">Details on
-                                CodePen</a>
-                        </p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/CSS_creature_icon.png" class="card-img-top" alt="CSS-Creature">
+                <div class="card-body">
+                    <h5 class="card-title">CSS Creature Project</h5>
+                    <p class="card-text">For this project, I challenged myself with CSS gradient effects and learned
+                        about choosing the right sizing units for different components.</p>
+                    <p class="card-text">
+                        <a href="https://codepen.io/LaurenAnthony247/details/MWaLgaz">Details on
+                            CodePen</a>
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./assets/castform-sunny.PNG" class="card-img-top" alt="castform-sunny">
+                  <div class="card-body">
+                    <h5 class="card-title">Weather-mon API Project</h5>
+                    <p class="card-text"> I chose two APIs for this project as a challenge:
+                        OpenWeather and PokeApi.
+                        This was a very fun way to practice my fetch skills.</p>
+                    <p class="card-text">
+                        <a href="https://lea-poke-weather-api-project.web.app/">Firebase deployed web app</a>
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./assets/static_layout_icon.png" class="card-img-top" alt="static-layout">
+                  <div class="card-body">
+                    <h5 class="card-title">Static Layout Project</h5>
+                    <p class="card-text">
+                        In this project, I recreated a static layout for the Netflix page. It was a great challenge.
+                    </p>
+                    <p class="card-text">
+                        <a href="https://github.com/LaurenEAnthony/static_layout">Project Page on GitHub</a>
+                    </p>
                     </div>
                 </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card bg-dark text-white">
-                    <img src="./assets/castform-sunny.PNG" class="card-img" alt="castform-sunny">
-                    <div class="card-img-overlay rainbow"   id="api-project">
-                        <h5 class="card-title">Weather-mon API Project</h5>
-                        <p class="card-text"> I chose two APIs for this project as a challenge:
-                            OpenWeather and PokeApi.
-                            This was a very fun way to practice my fetch skills.</p>
-                        <p class="card-text">
-                            <a href="https://lea-poke-weather-api-project.web.app/">Firebase deployed web app</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card bg-dark text-white">
-                    <img src="./assets/static_layout_icon.png" class="card-img" alt="static-layout">
-                    <div class="card-img-overlay rainbow"   id="static-layout">
-                        <h5 class="card-title">Static Layout Project</h5>
-                        <p class="card-text">
-                            In this project, I recreated a static layout for the Netflix page. It was a great challenge.
-                        </p>
-                        <p class="card-text">
-                            <a href="https://github.com/LaurenEAnthony/static_layout">Project Page on GitHub</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+              </div>
+            
+<!-- CARD TEMPLATE -->
+<!-- <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div> -->
+
+
         </div>
     </section>
 <!-- CONTACT & LINKS -->
