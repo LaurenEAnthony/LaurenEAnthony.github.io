@@ -1,5 +1,5 @@
 .rainbow:hover {
-  /* color: white; */
+  color: white;
   text-shadow: 5px 5px 5px var(--accentTest);
 }
 /* 

@@ -1,171 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lauren Anthony's Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/base-style.css">
-    <link rel="stylesheet" href="./style/animations.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Marck+Script&display=swap" rel="stylesheet"> 
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/base-style.css" />
+    <link rel="stylesheet" href="./style/animations.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Marck+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body class="wrapper">
+  <body class="wrapper">
     <!-- Landing area -->
-    <section class="container-fluid" id="landing">
-        <div class="intro-layer" id="photo"></div>
-        <div class="intro-layer" id="gradient"></div>
-        <div class="row" id="intro">
-            <div class="col-md">
-                <h1 class="rainbow" >Lauren Anthony</h1>
-                <h3 class="rainbow" >Jr. Web Developer</h3>
-            </div>
+    <!-- <section class="container-fluid" id="landing">
+      <div class="intro-layer" id="photo"></div>
+      <div class="intro-layer" id="gradient"></div>
+      <div class="row" id="intro">
+        <div class="col-md">
+          <h1 class="rainbow">Lauren Anthony</h1>
+          <h3 class="rainbow">Jr. Web Developer</h3>
         </div>
-    </section>
+      </div>
+    </section> -->
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="custom-nav">
-        <a class="navbar-brand rainbow"   id="brand-link" href="#landing"  >Lauren E Anthony</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link rainbow"   id="home-link" href="#landing">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link rainbow"   id="about-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link rainbow"   id="projects-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link rainbow"   id="contact-link" href="#contact-form">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link rainbow"   id="etc-link" href="#etc">Etc.</a>
-                </li>
-            </ul>
-        </div>
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-light"
+      id="custom-nav"
+    >
+      <a class="navbar-brand rainbow" id="brand-link" href="#"
+        >Lauren E Anthony</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <!-- <li class="nav-item">
+            <a class="nav-link rainbow" id="home-link" href="#landing"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link rainbow" id="about-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rainbow" id="projects-link" href="#projects"
+              >Projects</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rainbow" id="contact-link" href="#contact-form"
+              >Contact Etc.</a
+            >
+          </li>
+        </ul>
+      </div>
     </nav>
-<!-- ABOUT -->
+    <!-- ABOUT -->
     <section class="container about" id="about">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2 class="rainbow"   >ABOUT ME</h2>
-            </div>
+      <div class="row" id="about-content">
+        <div class="col-md-5" id="headshot">
+          <img class="rainbow" src="assets/casual-profile-bw.jpg" />
         </div>
-        <div class="row" id="about-content">
-            <div class="col-md-4" id="headshot">
-                <img class="rainbow"   src="assets/casual-profile-bw.jpg">
-            </div>
-            <!-- </div>
-        <div class="row"> -->
-            <div class="col-md-8" id="bio">
-                <!-- <h4>My name is Lauren,</h4> -->
-                <p>
-                    I am a web developer ready to take my career change into tech head on. I thrive when I can learn and explore new things, so what better career than coding which never stops moving and evolving. 
-                </p>
-                <p>
-                    I have my undergraduate and graduate degrees in vocal music performance and have been working in banking operations for the past several years.  In my current position in banking, I have honed my skills of problem-solving, critical thinking, analyzing information, and leadership.  My years of studying music taught me how to be detail-oriented, how to learn languages and frameworks, how to multi-task and most importantly, relentless dedication to one's craft.  I hope to bring all of this together, with the addition of coding skills, and find my niche in the world of technology. 
-                    <!-- I came to Central Indiana, via Northeast Ohio in 2013, to attend Ball State University for my Masters
-                    degree in Music. I studied classical voice for 15+ years, before discovering that I had natural
-                    strength in analytical areas as well as artistic. I am a puzzle addict and a spreadsheet junkie, but
-                    I have a serious side as well!</p>
-                <p>I enrolled at Eleven Fifty Academy because I would like a career that energizes me, where I never run
-                    out of new things to learn and master. I believe that creativity and imagination are not only useful
-                    for art, but can be applied in many more “mundane” ways, such as: looking at issues from every
-                    angle, generating innovative ideas, or even putting yourself in another person’s shoes.</p>
-                <p>I live with my partner, Aaron and our precious cat, Crowley. I'm getting really into the WFH
-                    lifestye. In my spare time, I am an avid home-cooking gourmet, I enjoy writing both fiction and
-                    non-fiction, and I adore reading fantasy novels. Pre-quarantine, I could also be found creating
-                    bizarre characters to play in Dungeons & Dragons games. In a past life (aka my mid-twenties), I
-                    earned my black belt in Taekwondo, and if I ever have free time again, I’d like to resume my
-                    training. -->
-                </p>
-            </div>
+        <div class="col-md-7" id="bio">
+          <!-- <h4>My name is Lauren,</h4> -->
+          <h2 class="rainbow">Hi, I'm Lauren!</h2>
+          <p>
+            I am a full-stack web developer & design geek.
+            <br />
+            I specialize in React, JavaScript, thinking far too much about UI, &
+            making bad jokes.
+            <br />Please check out my work below.
+          </p>
         </div>
+      </div>
+      <a href="#projects" id="to-next-section">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="3rem"
+          height="3rem"
+          fill="black"
+          class="bi bi-chevron-down"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+          />
+        </svg>
+      </a>
     </section>
-<!-- PROJECTS -->
+    <!-- PROJECTS -->
     <section class="container projects" id="projects">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2 class="rainbow"  >PROJECTS</h2>
-            </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="rainbow">PROJECTS</h2>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                  <img src="./assets/vision-board-icon.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Vision Board App</h5>
-                    <p class="card-text">Team creation for final badge of web development course. Full-stack React App which helped me learn Material-UI styling, separate admin authorization, & database associations. We also go to work with TypeScript, and React class components.</p>
-                    <p>
-                        <a href="https://visionboard-app.herokuapp.com/home">Go to Vision Board App</a>
-                    </p>
-                  </div>
-                </div>
-              </div><div class="col">
-                <div class="card h-100">
-                  <img src="./assets/mental-notes-icon.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Mental Notes Therapy App</h5>
-                    <p class="card-text">Full-stack React app for keeping track of mental health progress. I wanted to create a calm and clean feel, which allowed the user's input to be their focus.</p>
-                    <p>
-                        <a href="https://mental-notes-therapy-app.herokuapp.com/">Go to Mental Notes App</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="./assets/CSS_creature_icon.png" class="card-img-top" alt="CSS-Creature">
-                <div class="card-body">
-                    <h5 class="card-title">CSS Creature Project</h5>
-                    <p class="card-text">For this project, I challenged myself with CSS gradient effects and learned
-                        about choosing the right sizing units for different components.</p>
-                    <p class="card-text">
-                        <a href="https://codepen.io/LaurenAnthony247/details/MWaLgaz">Details on
-                            CodePen</a>
-                    </p>
-                </div>
-              </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/vision-board-icon.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Vision Board App</h5>
+              <p class="card-text">
+                Team creation for final badge of web development course.
+                Full-stack React App which helped me learn Material-UI styling,
+                separate admin authorization, & database associations. We also
+                go to work with TypeScript, and React class components.
+              </p>
+              <p>
+                <a href="https://visionboard-app.herokuapp.com/home"
+                  >Go to Vision Board App</a
+                >
+              </p>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="./assets/castform-sunny.PNG" class="card-img-top" alt="castform-sunny">
-                  <div class="card-body">
-                    <h5 class="card-title">Weather-mon API Project</h5>
-                    <p class="card-text"> I chose two APIs for this project as a challenge:
-                        OpenWeather and PokeApi.
-                        This was a very fun way to practice my fetch skills.</p>
-                    <p class="card-text">
-                        <a href="https://lea-poke-weather-api-project.web.app/">Firebase deployed web app</a>
-                    </p>
-                </div>
-              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/mental-notes-icon.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mental Notes Therapy App</h5>
+              <p class="card-text">
+                Full-stack React app for keeping track of mental health
+                progress. I wanted to create a calm and clean feel, which
+                allowed the user's input to be their focus.
+              </p>
+              <p>
+                <a href="https://mental-notes-therapy-app.herokuapp.com/"
+                  >Go to Mental Notes App</a
+                >
+              </p>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="./assets/static_layout_icon.png" class="card-img-top" alt="static-layout">
-                  <div class="card-body">
-                    <h5 class="card-title">Static Layout Project</h5>
-                    <p class="card-text">
-                        In this project, I recreated a static layout for the Netflix page. It was a great challenge.
-                    </p>
-                    <p class="card-text">
-                        <a href="https://github.com/LaurenEAnthony/static_layout">Project Page on GitHub</a>
-                    </p>
-                    </div>
-                </div>
-              </div>
-            
-<!-- CARD TEMPLATE -->
-<!-- <div class="col">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/CSS_creature_icon.png"
+              class="card-img-top"
+              alt="CSS-Creature"
+            />
+            <div class="card-body">
+              <h5 class="card-title">CSS Creature Project</h5>
+              <p class="card-text">
+                For this project, I challenged myself with CSS gradient effects
+                and learned about choosing the right sizing units for different
+                components.
+              </p>
+              <p class="card-text">
+                <a href="https://codepen.io/LaurenAnthony247/details/MWaLgaz"
+                  >Details on CodePen</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/castform-sunny.PNG"
+              class="card-img-top"
+              alt="castform-sunny"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Weather-mon API Project</h5>
+              <p class="card-text">
+                I chose two APIs for this project as a challenge: OpenWeather
+                and PokeApi. This was a very fun way to practice my fetch
+                skills.
+              </p>
+              <p class="card-text">
+                <a href="https://lea-poke-weather-api-project.web.app/"
+                  >Firebase deployed web app</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/static_layout_icon.png"
+              class="card-img-top"
+              alt="static-layout"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Static Layout Project</h5>
+              <p class="card-text">
+                In this project, I recreated a static layout for the Netflix
+                page. It was a great challenge.
+              </p>
+              <p class="card-text">
+                <a href="https://github.com/LaurenEAnthony/static_layout"
+                  >Project Page on GitHub</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD TEMPLATE -->
+        <!-- <div class="col">
     <div class="card h-100">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
@@ -174,91 +236,162 @@
       </div>
     </div>
   </div> -->
-
-
-        </div>
+      </div>
     </section>
-<!-- CONTACT & LINKS -->
-    <section class="container contact-etc">
-        <div class="row">
-            <div class="col-md-4 text-center" id="contact-head">
-                <h2 class="rainbow"   >CONTACT</h2>
-            </div>
-            <div class="col-md-8 text-center" id="etc-head">
-                <h2 class="rainbow"   >MORE INFO</h2>
-            </div>
+    <!-- CONTACT & LINKS -->
+    <section class="container contact-etc" id="contact-etc">
+      <div class="row">
+        <div class="col-md-6" id="contact-form">
+          <h2 class="rainbow">CONTACT</h2>
+          <form
+            id="fs-frm"
+            name="simple-contact-form"
+            accept-charset="utf-8"
+            action="https://formspree.io/xaypdyvg"
+            method="post"
+          >
+            <fieldset id="fs-frm-inputs">
+              <div class="form-group row" id="name">
+                <label class="col-sm-5 rainbow" for="full-name"
+                  >Full Name:
+                </label>
+                <input
+                  type="text"
+                  name="name"
+                  id="full-name"
+                  placeholder="First and Last"
+                  required=""
+                />
+              </div>
+              <div class="form-group row" id="email">
+                <label class="col-sm-5 rainbow" for="email-address"
+                  >Email Address:
+                </label>
+                <input
+                  type="email"
+                  name="_replyto"
+                  id="email-address"
+                  placeholder="email@domain.tld"
+                  required=""
+                />
+              </div>
+              <div class="form-group row" id="message">
+                <label class="col-sm-5 rainbow" for="message">Message: </label>
+                <textarea
+                  rows="5"
+                  name="message"
+                  id="message"
+                  placeholder="Enter message here."
+                  required=""
+                ></textarea>
+                <input
+                  type="hidden"
+                  name="_subject"
+                  id="email-subject"
+                  value="Contact Form Submission"
+                />
+              </div>
+            </fieldset>
+            <input
+              class="btn btn-secondary rainbow"
+              id="submit"
+              type="submit"
+              value="Submit"
+            />
+          </form>
         </div>
-        <div class="row">
-            <div class="col-md-4" id=contact-form>
-                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
-                    action="https://formspree.io/xaypdyvg" method="post">
-                    <fieldset id="fs-frm-inputs">
-                        <div class="form-group row" id="name">
-                            <label class="col-sm-5 rainbow"   for="full-name">Full Name: </label>
-                            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                        </div>
-                        <div class="form-group row" id="email">
-                            <label class="col-sm-5 rainbow"   for="email-address">Email Address: </label>
-                            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld"
-                                required="">
-                        </div>
-                        <div class="form-group row" id="message">
-                            <label class="col-sm-5 rainbow"   for="message">Message: </label>
-                            <textarea rows="5" name="message" id="message" placeholder="Enter message here."
-                                required=""></textarea>
-                            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                        </div>
-                    </fieldset>
-                    <input class="btn btn-secondary rainbow"   id="submit" type="submit" value="Submit">
-                </form>
-            </div>
 
-            <div class="col-md-8" id="etc">
-                <div class="row" id="resume">
-                    <div class="col-md-4 text-center">
-                        <h4 class="rainbow"   >My Resume: </h4>
-                    </div>
-                    <div class="col-md">
-                        <a href="./assets/Lauren Anthony Resume 11-2020.pdf" target="blank">Download PDF</a>
-                    </div>
-                </div>
-                <div class="row" id="profile-links">
-                    <div class="col-md-4 text-center">
-                        <h4 class="rainbow"  >My Profiles: </h4>
-                    </div>
-                    <div class="col-md">
-                        <a href="https://www.linkedin.com/in/lauren-e-anthony/" target="blank"><img src="./assets/LI-In-Bug.png"
-                                class="icon1" alt=""></a>
-                        <a href="https://github.com/LaurenEAnthony" target="blank"><img src="./assets/GitHub-Mark-64px.png"
-                                class="icon" alt=""></a>
-                        <a href="https://codepen.io/LaurenAnthony247" target="blank"><img
-                                src="./assets/Codepen-Button-Fill-Black-Large.png" class="icon" alt=""></a>
-                    </div>
-                </div>
+        <div class="col-md-6" id="etc">
+          <div class="row" id="resume">
+            <div class="col-md-6 text-center">
+              <h4 class="rainbow">My Resume:</h4>
             </div>
+            <div class="col-md">
+              <a
+                id="resume-link"
+                href="./assets/Lauren Anthony Resume 11-2020.pdf"
+                target="blank"
+                >Download PDF</a
+              >
+            </div>
+          </div>
+          <div class="row" id="profile-links">
+            <div class="col-md-6 text-center">
+              <h4 class="rainbow">My Profiles:</h4>
+            </div>
+            <div class="col-md">
+              <a
+                href="https://www.linkedin.com/in/lauren-e-anthony/"
+                target="blank"
+                >
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-linkedin icon" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                  </svg>
+            </a>
+
+              <a href="https://github.com/LaurenEAnthony" target="blank"
+                >
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="black" class="bi bi-github icon" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                  </svg>
+            </a>
+
+              <a href="https://codepen.io/LAnthony" target="blank"
+                ><img
+                  src="./assets/Codepen-Button-Fill-Black-Large.png"
+                  class="icon"
+                  alt=""
+              /></a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    
-<!-- FOOTER -->
+    <!-- FOOTER -->
     <footer class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <p class="rainbow"  >&copy Lauren Anthony 2020</p>
-            </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="rainbow">&copy Lauren E Anthony 2021</p>
         </div>
+        <div class="col-12">
+          <button id="back-to-top" type="button" class="btn btn-outline-dark">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="currentColor"
+                class="bi bi-chevron-bar-up"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3.646 11.854a.5.5 0 0 0 .708 0L8 8.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708zM2.4 5.2c0 .22.18.4.4.4h10.4a.4.4 0 0 0 0-.8H2.8a.4.4 0 0 0-.4.4z"
+                />
+              </svg>
+            </a>
+          </button>
+        </div>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 
-<!-- SCRIPTS -->
-<script src="./scripts/index.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  <!-- SCRIPTS -->
+  <script src="./scripts/index.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-
+    crossorigin="anonymous"
+  ></script>
 </html>
