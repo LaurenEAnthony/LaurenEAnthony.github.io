@@ -97,17 +97,17 @@ h2 {
 
 #to-next-section {
   position: absolute;
-  bottom: 0.5rem;
+  bottom: 2.5rem;
 }
 
 #projects {
   margin-top: 5rem;
-  background: linear-gradient(
+  /* background: linear-gradient(
     135deg,
     rgba(204, 255, 0, 0.5),
     rgba(255, 255, 255, 0.5)
-  );
-  /* background: rgba(255, 255, 255, 0.5); */
+  ); */
+  background: rgba(255, 255, 255, 0.5);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
@@ -130,12 +130,12 @@ h2 {
 
 #contact-etc {
   margin-top: 5rem;
-  background: linear-gradient(
+  /* background: linear-gradient(
     135deg,
     rgba(102, 51, 255, 0.5),
     rgba(255, 255, 255, 0.5)
-  );
-  /* background: rgba(255, 255, 255, 0.5); */
+  ); */
+  background: rgba(255, 255, 255, 0.5);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
