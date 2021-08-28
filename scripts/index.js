@@ -1,16 +1,11 @@
-var hoverElements = document.getElementsByClassName("rainbow");
-// console.log(hoverElements)
+var photo = document.getElementById("my-photo");
+var about = document.getElementById("about");
 
-for (var i = 0; i < hoverElements.length; i++) {
-  hoverElements[i].addEventListener("pointerover", function hoverHandler(e) {
-    // console.log(this.className)
-    // console.log(e.currentTarget === this)
-    currEl = e.currentTarget;
-    colorPick(currEl);
-  });
-}
+// CSS var & random info: https://css-tricks.com/random-numbers-css/
 
 function colorPick() {
+  var elem = this;
+
   var colors = [
     "rgba(51, 255, 0, 0.5)", //green
     "rgba(102, 0, 255, 0.5)", //indigo
@@ -24,21 +19,21 @@ function colorPick() {
 
   var random_color = colors[Math.floor(Math.random() * colors.length)];
 
-  return random_color;
-
-  // el.style.setProperty("--accentTest", random_color);
+  elem.style.setProperty("--accent", random_color);
 }
 
-var photo = document.getElementById("my-photo");
-var about = document.getElementById("about");
+// Event listener info: https://www.sitepoint.com/css3-animation-javascript-event-handlers/
 
 function colorize(el) {
   // el.style.background = `linear-gradient(135deg, ${colorPick()},rgba(255, 255, 255, 0.5))`;
-  el.style.background = `linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.9)), url(./assets/PngItem_5133914.png)`;
+  // el.style.background = `linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.9)), url(./assets/PngItem_5133914.png)`;
+  el.setAttribute("class", "container glow");
+  el.addEventListener("animationiteration", colorPick, false);
 }
 
 function decolorize(el) {
-  el.style.background = "rgba(255, 255, 255, 0.5)";
+  // el.style.background = "rgba(255, 255, 255, 0.5)";
+  el.setAttribute("class", "container");
 }
 
 /**

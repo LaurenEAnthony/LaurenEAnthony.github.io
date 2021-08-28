@@ -2,3 +2,9 @@
   color: white;
   text-shadow: 5px 5px 5px var(--accentTest);
 } */
+
+/* @keyframes glow {
+  50% {
+    box-shadow: 10px 10px 15px var(--accent);
+  }
+} */
