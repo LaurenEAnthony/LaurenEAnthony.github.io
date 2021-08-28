@@ -7,12 +7,12 @@ function colorPick() {
   var elem = this;
 
   var colors = [
-    "rgba(51, 255, 0, 0.5)", //green
+    "rgba(204, 255, 0, 0.5)", //green
     "rgba(102, 0, 255, 0.5)", //indigo
     "rgba(204, 0, 255, 0.5)", //purple
     "rgba(255, 255, 0, 0.5)", //yellow
     "rgba(255, 153, 0, 0.5)", //orange
-    "rgba(255, 0, 102, 0.5)", //magenta
+    "rgba(255, 0, 204, 0.5)", //magenta
     "rgba(0, 255, 255, 0.5)", //cyan
     "rgba(0, 51, 255, 0.5)", //blue
   ];
@@ -28,6 +28,7 @@ function colorize(el) {
   // el.style.background = `linear-gradient(135deg, ${colorPick()},rgba(255, 255, 255, 0.5))`;
   // el.style.background = `linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.9)), url(./assets/PngItem_5133914.png)`;
   el.setAttribute("class", "container glow");
+  el.addEventListener("animationstart", colorPick, false);
   el.addEventListener("animationiteration", colorPick, false);
 }
 
@@ -68,7 +69,7 @@ $("#about").inViewport(function (px) {
   if (px > $(this).outerHeight() / 2) {
     document
       .getElementById("my-photo")
-      .setAttribute("src", "assets/casual-profile-teal.png");
+      .setAttribute("src", "assets/casual-profile-removebg.png");
   } else {
     document
       .getElementById("my-photo")
