@@ -73,7 +73,7 @@ $("#about").inViewport(function (px) {
   if (px > $(this).outerHeight() / 2) {
     document
       .getElementById("my-photo")
-      .setAttribute("src", "assets/casual-profile.jpg");
+      .setAttribute("src", "assets/casual-profile-teal.png");
   } else {
     document
       .getElementById("my-photo")
