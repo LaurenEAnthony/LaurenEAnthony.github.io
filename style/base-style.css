@@ -4,11 +4,14 @@ html {
 
 .wrapper {
   /* background: linear-gradient(to right, RGB(0,0,0), RGB(255,255,255), RGB(0,0,0)); */
-  background-image: URL("https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1497&q=80");
-  /* background-image: URL("https://images.unsplash.com/photo-1579492450119-80542d516179?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"); */
+  /* background-image: URL("https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1497&q=80"); */
+  background-image: URL("https://images.unsplash.com/photo-1579492450119-80542d516179?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
   /* background-image: URL("https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80"); */
   background-size: cover;
-  font-family: "Anonymous Pro", monospace;
+  background-attachment: fixed;
+  /* font-family: "Glory", sans-serif; */
+  font-family: "Oxygen", sans-serif;
+  /* font-family: "Quicksand", sans-serif; */
   color: black;
   border: black 1px;
 }
@@ -23,51 +26,24 @@ h2 {
   padding: 3rem 3rem 3rem 3rem;
 }
 
-#landing {
-  text-align: center;
-  height: 100vh;
-  min-width: 100%;
-  background-size: cover;
-  overflow: hidden;
-  padding: none;
-  background-image: radial-gradient(RGBA(255, 255, 255, 0), RGB(0, 0, 0)),
-    url("https://images.unsplash.com/photo-1543416862-c6758a5e79fb?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
-  background-size: 100%;
-  background-position-y: center;
-}
-
-#intro {
-  padding: 40vh 0 0 0;
-}
-
-#intro h1 {
-  font-family: "Marck Script", cursive;
-  color: linen;
-  font-size: 75pt;
-  /* text-shadow: RGB(0, 0, 0) 2px 2px 5px; */
-}
-
-#intro h3 {
-  color: linen;
-  font-weight: 500;
-  /* text-shadow: RGB(0, 0, 0) 1px 1px 3px; */
-}
-
 #custom-nav {
-  /* background-image: linear-gradient(to bottom, #262626, #424949, #262626);
-  color: black; */
   background-color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.9);
 }
 
 #about {
   margin-top: 70px;
+  padding-bottom: 1rem;
   text-align: center;
-  /* background: linear-gradient(
+  background: linear-gradient(
     135deg,
     rgba(255, 0, 255, 0.5),
     rgba(255, 255, 255, 0.5)
-  ); */
-  background: rgba(255, 255, 255, 0.5);
+  );
+  /* background: rgba(255, 255, 255, 0.5); */
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
@@ -95,19 +71,14 @@ h2 {
   font-size: 1.25rem;
 }
 
-#to-next-section {
-  position: absolute;
-  bottom: 2.5rem;
-}
-
 #projects {
   margin-top: 5rem;
-  /* background: linear-gradient(
+  background: linear-gradient(
     135deg,
     rgba(204, 255, 0, 0.5),
     rgba(255, 255, 255, 0.5)
-  ); */
-  background: rgba(255, 255, 255, 0.5);
+  );
+  /* background: rgba(255, 255, 255, 0.5); */
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
@@ -130,12 +101,12 @@ h2 {
 
 #contact-etc {
   margin-top: 5rem;
-  /* background: linear-gradient(
+  background: linear-gradient(
     135deg,
     rgba(102, 51, 255, 0.5),
     rgba(255, 255, 255, 0.5)
-  ); */
-  background: rgba(255, 255, 255, 0.5);
+  );
+  /* background: rgba(255, 255, 255, 0.5); */
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
@@ -145,11 +116,40 @@ h2 {
 #contact-form {
   width: 100%;
   height: auto;
+}
+
+#contact-form h2 {
   text-align: center;
 }
 
 #fs-frm {
   padding: 1rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.form-group {
+  min-width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#message {
+  width: 100%;
+  flex-grow: 2;
+}
+
+#submit {
+  color: black;
+  border-color: black;
+  background-color: transparent;
+}
+
+#submit:hover {
+  color: white;
 }
 
 #etc {
@@ -178,6 +178,11 @@ footer {
   position: absolute;
   bottom: 1rem;
   right: -2rem;
+  border-color: black;
+}
+
+#back-to-top:hover {
+  background-color: transparent;
 }
 
 #back-to-top a {

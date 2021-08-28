@@ -12,25 +12,12 @@
     />
     <link rel="stylesheet" href="./style/base-style.css" />
     <link rel="stylesheet" href="./style/animations.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Marck+Script&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@100&family=Oxygen:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
   </head>
 
   <body class="wrapper">
-    <!-- Landing area -->
-    <!-- <section class="container-fluid" id="landing">
-      <div class="intro-layer" id="photo"></div>
-      <div class="intro-layer" id="gradient"></div>
-      <div class="row" id="intro">
-        <div class="col-md">
-          <h1 class="rainbow">Lauren Anthony</h1>
-          <h3 class="rainbow">Jr. Web Developer</h3>
-        </div>
-      </div>
-    </section> -->
     <!-- Navigation -->
     <nav
       class="navbar fixed-top navbar-expand-lg navbar-light"
@@ -52,11 +39,6 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <!-- <li class="nav-item">
-            <a class="nav-link rainbow" id="home-link" href="#landing"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li> -->
           <li class="nav-item">
             <a class="nav-link rainbow" id="about-link" href="#about">About</a>
           </li>
@@ -77,17 +59,18 @@
     <section class="container about" id="about">
       <div class="row" id="about-content">
         <div class="col-md-5" id="headshot">
-          <img class="rainbow" src="assets/casual-profile-bw.jpg" />
+          <img class="rainbow" src="assets/casual-profile.jpg" />
         </div>
         <div class="col-md-7" id="bio">
-          <!-- <h4>My name is Lauren,</h4> -->
           <h2 class="rainbow">Hi, I'm Lauren!</h2>
           <p>
             I am a full-stack web developer & design geek.
             <br />
-            I specialize in React, JavaScript, thinking far too much about UI, &
-            making bad jokes.
-            <br />Please check out my work below.
+            I specialize in React, JavaScript, thinking far too much about UI, 
+            <br>
+            & making bad jokes.
+            <!-- <br /> -->
+            Please check out my work below.
           </p>
         </div>
       </div>
@@ -225,17 +208,6 @@
             </div>
           </div>
         </div>
-
-        <!-- CARD TEMPLATE -->
-        <!-- <div class="col">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div> -->
       </div>
     </section>
     <!-- CONTACT & LINKS -->
@@ -251,11 +223,12 @@
             method="post"
           >
             <fieldset id="fs-frm-inputs">
-              <div class="form-group row" id="name">
-                <label class="col-sm-5 rainbow" for="full-name"
+              <div class="form-group" id="name">
+                <label class="col-sm rainbow" for="full-name"
                   >Full Name:
                 </label>
                 <input
+                  class="col-sm"
                   type="text"
                   name="name"
                   id="full-name"
@@ -263,11 +236,13 @@
                   required=""
                 />
               </div>
-              <div class="form-group row" id="email">
-                <label class="col-sm-5 rainbow" for="email-address"
+              <div class="form-group" id="email">
+                <label class="col-sm rainbow" for="email-address"
                   >Email Address:
                 </label>
                 <input
+                class="col-sm"
+
                   type="email"
                   name="_replyto"
                   id="email-address"
@@ -275,9 +250,11 @@
                   required=""
                 />
               </div>
-              <div class="form-group row" id="message">
-                <label class="col-sm-5 rainbow" for="message">Message: </label>
+              <div class="form-group" id="message">
+                <label class="col-sm rainbow" for="message">Message: </label>
                 <textarea
+                class="col-sm"
+
                   rows="5"
                   name="message"
                   id="message"
@@ -293,14 +270,13 @@
               </div>
             </fieldset>
             <input
-              class="btn btn-secondary rainbow"
+              class="btn btn-outline-light rainbow"
               id="submit"
               type="submit"
               value="Submit"
             />
           </form>
         </div>
-
         <div class="col-md-6" id="etc">
           <div class="row" id="resume">
             <div class="col-md-6 text-center">
@@ -309,7 +285,7 @@
             <div class="col-md">
               <a
                 id="resume-link"
-                href="./assets/Lauren Anthony Resume 11-2020.pdf"
+                href="./assets/Lauren Anthony resume 8-2021 final.pdf"
                 target="blank"
                 >Download PDF</a
               >
@@ -354,14 +330,14 @@
           <p class="rainbow">&copy Lauren E Anthony 2021</p>
         </div>
         <div class="col-12">
-          <button id="back-to-top" type="button" class="btn btn-outline-dark">
+          <button id="back-to-top" type="button" class="btn btn-outline-light">
             <a href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
                 height="32"
                 fill="currentColor"
-                class="bi bi-chevron-bar-up"
+                class="bi bi-chevron-bar-up rainbow"
                 viewBox="0 0 16 16"
               >
                 <path
