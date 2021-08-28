@@ -1,7 +1,3 @@
-// var scrollSpy = new bootstrap.ScrollSpy(document.body, {
-//   target: "#navbarNav",
-// });
-
 var hoverElements = document.getElementsByClassName("rainbow");
 // console.log(hoverElements)
 
@@ -15,27 +11,6 @@ for (var i = 0; i < hoverElements.length; i++) {
 }
 
 function colorPick(el) {
-  // var colors =[
-  //     '#E95D25',
-  //     '#692B81',
-  //     '#E51D27',
-  //     '#FFF047',
-  //     '#E51956',
-  //     '#28A3DE',
-  //     '#049848',
-  //     '#EE99C0',
-  // ]
-
-  // var colors = [
-  //   "#FB1E6E",
-  //   // '#0502F1',
-  //   "#00ffd4",
-  //   "#28E10A",
-  //   "#FF7F00",
-  //   // '#F4000B',
-  //   "#CE02F7",
-  // ];
-
   var colors = [
     "RGB(51, 255, 0)", //green
     "RGB(102, 0, 255)", //indigo

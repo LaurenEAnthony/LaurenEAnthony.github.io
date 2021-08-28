@@ -2,23 +2,3 @@
   color: white;
   text-shadow: 5px 5px 5px var(--accentTest);
 }
-/* 
-#headshot img:hover {
-  box-shadow: 0 0 20px var(--accent8);
-}
-
-#css-creature:hover {
-  box-shadow: 0 0 20px var(--accent4);
-}
-
-#api-project:hover {
-  box-shadow: 0 0 20px var(--accent8);
-}
-
-#static-layout:hover {
-  box-shadow: 0 0 20px var(--accent6);
-}
-
-#submit:hover {
-  box-shadow: 0 0 10px var(--accent4);
-} */
